@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thế giới Annime, Phim Ảnh">
+    <title>Tin Tức Manga-Phim Ảnh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #3AA7A3;
+        }  
+        .navbar-custom {
+            background-color: var(--primary-color);
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+        .navbar-nav .nav-link:hover {
+            opacity: 0.8;
+        }
+        
+        .news-item {
+            margin-bottom: 2rem;
+            padding: 15px;
+            border-radius: 12px;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .news-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .news-item:hover img {
+            transform: scale(1.03);
+        }
+
+        .news-item h5 {
+            position: relative;
+            padding-bottom: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .news-item h5:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .news-item:hover h5:after {
+            width: 100%;
+        }
+
+        .news-item:hover h5 {
+            color: var(--primary-color);
+        }
+
+        .news-item a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        .news-item a:hover {
+            color: var(--primary-color);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .news-item {
+            animation: fadeIn 0.5s ease forwards;
+            opacity: 0;
+            animation-delay: calc(var(--animation-order) * 0.1s);
+        }
+        
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .news-item .col-md-4,
+            .news-item .col-md-8 {
+                padding: 0 15px;
+            }
+            
+            .news-item h5 {
+                margin-top: 10px;
+            }
+            .news-item p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3AA7A3;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./esport.html">ESPORTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./annime-dienanh.html">MANGA/FILMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kham-pha.html">KHÁM PHÁ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hong.html">HÓNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cong-dong.html">CỘNG ĐỒNG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <html>
+<head>
+</style>
+</head>
+    <style>
+        .image-container {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+<body>
+ <div class="container">
+  <div class="row justify-content-center">
+   <div class="col-lg-8">
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of people walking in a hallway" height="200" src="https://gamek.mediacdn.vn/zoom/220_160/133514250583805952/2024/12/4/avatar1733310903209-173331090364065073845.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Fan anime/manga mách nhau cách gửi hình gốc tránh mờ nhòe trong phút mốt
+       </h5>
+       <p>
+        Các fan anime/manga sẽ không phải đau đầu chuyện giữ ảnh chất lượng cao với cách chia sẻ, lưu trữ tiện lợi này.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="T1 CN" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/4/avatar1733288516300-1733288527075489686937.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5> <a class="nav-link" href="1000001/t1-dang-thuc-hien-nhieu-thuong-vu-chuyen-nhuong-va-mot-trong-so-do-tro-thanh-tam-diem-tranh-luan-cua-khan-gia-lcs.html">
+        Fan chọn ra nhân vật được yêu thích nhất toàn cầu của My Hero Academia
+    </a>
+       </h5>
+       <p>
+        Top 3 nhân vật đứng đầu sẽ cạnh tranh để giành tượng đồng và cả 10 nhân vật đứng đầu sẽ nhận được hình minh họa mới của Horikoshi Kohei vào năm 2025.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person in a dark room with blue lighting" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/4/ki-bankai-vs-byakuya-kuchiki-bleach-1733287024671999370157-1733288697173-17332886974281374551814-17332887989401270538707-100-149-933-1481-crop-17332888115531929581978.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Bleach: 8 thay đổi lớn nhất giữa manga và anime
+    </h5>
+       <p>
+        Phiên bản anime của Bleach khác với manga ở chỗ có những thay đổi về chi tiết nhân vật và cốt truyện.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a group of people in white uniforms" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/4/avatar1733288425351-1733288426300354173412.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Manga One Piece lại mang tin buồn đến cho độc giả
+    </h5>
+       <p>
+        Oda thường nghỉ ngơi giữa các chương One Piece, chọn cách đăng truyện hai tuần một lần để cân bằng giữa công việc và sức khỏe.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person in a white shirt and a person in a black shirt" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/3/avatar1733199689262-1733199690298806573392.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Địch Lệ Nhiệt Ba có tạo hình đẹp nhất sự nghiệp
+    </h5>
+       <p>
+        Sự thay đổi trong phong cách và trang điểm của đoàn phim Mộ Tư Từ giúp Địch Lệ Nhiệt Ba đẹp hơn. Có thể nói đây là dự án mỹ nhân Tân Cương có tạo hình đẹp nhất.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person with glasses and a suit" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/3/avatar1733200329060-17332004010261134603984.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Tin tức mới về Solo Leveling - ReAwakening và phần 2 anime
+    </h5>
+       <p>
+        Diễn viên lồng tiếng tiếng Nhật cho Cha Hae-in - Reina Ueda, đã tiết lộ thêm về những gì khán giả có thể mong đợi từ nhân vật của cô trong phần 2 sắp tới của bộ anime Solo Leveling.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person in a white uniform holding a microphone" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/3/avatar1733200210880-17332002118561393595781.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Đây là cách các xưởng phim anime thể hiện cảnh khóc của các nàng waifu khiến fan rung động
+    </h5>
+       <p>
+        Mỗi xưởng phim lại có cách thể hiện phân cảnh khóc của nhân vật anime khác nhau.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a fantasy character with a large weapon" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/12/3/avatar1733200093925-1733200094228616029082.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Một "manga hiện tượng mới" sẽ được chuyển thể thành anime
+    </h5>
+       <p>
+        Thông tin manga này được chuyển thể thành anime đã nhận được nhiều sự kỳ vọng của người hâm mộ.
+    </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person with a shocked face emoji" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/11/30/avatar1732947417457-17329474181711928243258.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Giải mã sự kiện King in Black trong Venom 3: Ác thần Knull càn quét Trái Đất, Avengers hay X-Men cũng phải quy hàng       </h5>
+       <p>
+        Sony Pictures đã thả một con quái vật tàn ác bậc nhất truyện tranh Marvel vào vũ trụ điện ảnh SpiderVerse của mình.       </p>
+      </div>
+     </div>
+    </div>
+    <div class="news-item">
+     <div class="row">
+      <div class="col-md-4">
+       <img alt="Image of a person in a blue uniform holding a trophy" height="200" src="https://gamek.mediacdn.vn/zoom/310_200/133514250583805952/2024/11/29/avatar1732855258537-173285525931187310150.jpg" width="300"/>
+      </div>
+      <div class="col-md-8">
+       <h5>
+        Solo Leveling mùa 2 có thể không sánh bằng mùa đầu tiên vì một lý do rất thực tế       </h5>
+       <p>
+        Nhịp độ vội vã và tập trung vào Đảo Jeju có thể gây nguy hiểm cho sự phát triển của Jinwoo trong Solo Leveling phần 2 và khiến người hâm mộ manhwa thất vọng.
+    </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const newsItems = document.querySelectorAll('.news-item');
+    newsItems.forEach((item, index) => {
+        item.style.setProperty('--animation-order', index + 1);
+    });
+});
+</script>
+</body>
+</html>
+<!--end-->
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer text-center">
+        <div class="container">
+            <a href="#">LIÊN HỆ</a>
+            <span>|</span>
+            <a href="#">CHÍNH SÁCH BẢO MẬT</a>
+            <span>|</span>
+            <span>KẾT NỐI VỚI CHÚNG TÔI:</span>
+            <div class="social-icons d-inline-block">
+                <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-x-twitter fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
