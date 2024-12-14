@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Tin Tức</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .article-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .article-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .article-content {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        .related-news {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .related-news .card {
+            margin-bottom: 15px;
+        }
+        .navbar-custom {
+            background-color: #3AA7A3;
+        }
+        .search-bar {
+            width: 50%;
+            border-radius: 20px;
+            background-color: #f1f1f1;
+        }
+        .search-bar input {
+            border: none;
+            background: none;
+            width: 90%;
+            padding: 10px;
+        }
+        .search-bar input:focus {
+            outline: none;
+        }
+        .search-bar .fa-search {
+            color: #888;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+        .navbar-icons .fa-user-circle, .navbar-icons .fa-th-large, .navbar-icons .fa-bars {
+            font-size: 1.5rem;
+            color: black;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            margin: 0 5px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3AA7A3;">
+        <div class="container-fluid">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="navbar-collapse justify-content-center collapse" id="navbarNav" style="">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./esport.html">ESPORTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./annime-dienanh.html">MANGA/FILMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kham-pha.html">KHÁM PHÁ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hong.html">HÓNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cong-dong.html">CỘNG ĐỒNG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="article">
+                    <h1 class="article-title">Zenless Zone Zero có thể là tựa game tập hợp cả ưu điểm của Genshin Impact và Honkai 3rd để chinh phục game thủ</h1>
+                    <div class="article-image">
+                        <div class="video-container">
+                            <iframe 
+                                width="560" 
+                                height="315" 
+                                src="https://www.youtube.com/embed/C5WS9Ohb-fI" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="text-center">Trailer Zenless Zone Zero</p>
+                    </div>
+                    <div class="article-content mt-4">
+                        <p>Như vậy là sau một thời gian úp mở, cuối cùng thì miHoYo cũng đã tiết lộ tựa game mới thứ 2 của mình sau Honkai: Star Rail. Đó sẽ là một trò chơi hành động lấy bối cảnh tương lai có tên Zenless Zone Zero, và đoạn trailer đầu tiên của game đã nhanh chóng chinh phục được game thủ.                        </p>
+                        <p>Bởi sự thành công của Genshin Impact, những tựa game mới của miHoYo thu hút rất nhiều sự chú ý từ công chúng, và áp lực lên đội ngũ phát triển hẳn cũng rất cao. Mời bạn cùng Sforum 'soi mói' xem liệu trò chơi này có gì đáng chú ý nhé.                        </p>
+                    </div>
+                </div>
+                        </p>
+                        <div class="article-image">
+                            <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2022/05/zzz-1.jpg" alt="In game Zenless Zone Zero">
+                            <p class="text-center">Cargo Location ZZZ</p>
+                        </div>
+                         <p>Trong Zenless Zone Zero, game thủ sẽ là một người đang sống trong thành phố New Eridu, thành trì cuối cùng của nhân loại sau khi thế giới bên ngoài đã bị một thảm kịch nuốt chửng. Không rõ thảm kịch đó là gì, nhưng 100% chúng là nguồn gốc của lũ quái vật xuất hiện trong trailer trên. Bối cảnh này đã xuất hiện trong rất nhiều game và manga, nên nói chung không có gì đặc sắc. Điều quan trọng là nhà phát triển sẽ đặt ra các thiết lập về thế giới và nhân vật như thế nào, nhưng Sforum không lo ngại về điều này bởi đây là điểm mạnh của miHoYo.inate - nam streamer đình đám của LMHT Bắc Mỹ. Cho ai chưa biết, anh này là đồng đội cũ của Piglet và rất bực tức với cựu sao SKT T1. Nhiều fan của Team Liquid cũng không thích, nếu không muốn nói là từng bày tỏ sự căm ghét với Piglet.
+                        </p>
+                         <p>Sau hai tựa game "chuyên trị" phong cách hành động tốc độ cao, có thể nói rằng miHoYo đã làm chủ được cách để tạo ra một gameplay chiến đấu hấp dẫn. Cả Honkai Impact 3rd và Genshin Impact đều là những tựa game chinh phục người chơi bằng nền tảng gameplay của mình, dù đồ họa tươi tắn và các nhân vật xinh xắn có thể là thứ khiến họ đến với trò chơi. Zenless Zone Zero có thể sẽ tiếp tục giữ vững truyền thống này, khi những động tác chiến đấu mượt mà và hoa mĩ trong trailer trên đã làm cho không ít game thủ cảm thấy thích thú.
+                        </p>
+                        <div class="article-image">
+                            <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2022/05/zzz-2.jpg">
+                            <p class="text-center">Appi "Jeopardy Zero"</p>
+                        </div>
+                        <h5>Đồ họa và âm thanh của trò chơi</h5>
+                        <p>Bất kỳ ai đã chơi qua game của miHoYo đều biết rằng sau Gun Girl Z, game của họ luôn chọn phong cách hình ảnh anime với những mô hình 3D chất lượng cao, camera có thể xoay 360 độ, kéo sát vào nhân vật để nhìn ngắm. Điều này hẳn sẽ vẫn được giữ nguyên trong Zenless Zone Zero.
+
+                        <p>Với Zenless Zone Zero, bối cảnh thành phố tương lai của game có thể là một lợi thế lớn giúp game nhẹ nhàng hơn, ít đòi hỏi cấu hình máy hơn. Lý do của điều này là bởi các loại xe cộ, máy móc, nhà cửa có rất nhiều mặt phẳng, thường cần ít sức mạnh xử lý hơn là cây cỏ và các vật phẩm không quy tắc như đá tảng hay mặt đất. Bên cạnh đó, nếu suy đoán về gameplay dạng đi phụ bản của Sforum là chính xác thì nó cũng sẽ có dung lượng nhẹ hơn Genshin Impact nhờ không phải "gánh" một thế giới mở khổng lồ.
+                        <div class="article-image">
+                          <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2022/05/zzz.jpg">
+                          <p class="text-center">Ảnh chụp game Zenless Zone Zero</p>  
+                        </div>
+                        <p>Tuy nhiên, với mục tiêu lợi nhuận của mình, miHoYo tiếp tục khiến cho Zenless Zone Zero "mắc kẹt" với nền tảng mobile. Đây không hẳn là điều xấu bởi nó giúp mở rộng cộng đồng game thủ được thưởng thức trò chơi (và từ đó "hiến máu" cho miHoYo nhiều hơn). Nhưng như Genshin Impact đã cho chúng ta thấy, khi một trò chơi phải tối ưu hóa cho cả mobile, rất nhiều tính năng của nó sẽ bị "bóp" lại và không tận dụng được sức mạnh của PC. Lấy ví dụ tính năng xây nhà (Ấm Trần Ca) của Genshin Impact đã bị game thủ phàn nàn lâu nay vì giới hạn vật phẩm quá thấp, xây chẳng đã thèm.</p>                   
+                    </div>
+                    <div class="comments-section mt-5">
+                        <h3>Bình Luận</h3>
+                        <div class="comment-form mt-4">
+                            <h5>Viết Bình Luận</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Tên của bạn</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nhập tên">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="comment" class="form-label">Nội dung</label>
+                                    <textarea class="form-control" id="comment" rows="4" placeholder="Nhập bình luận"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Gửi Bình Luận</button>
+                            </form>
+                        </div>
+                    
+                        <div class="comments-list mt-4">
+                            <h5>Danh Sách Bình Luận</h5>
+                            <!-- Example of a comment -->
+                            <div class="comment mt-3 p-3 border rounded">
+                                <h6 class="mb-1">Nguyễn Văn A</h6>
+                                <p class="mb-1">Bài viết rất hay, cảm ơn tác giả!</p>
+                                <small class="text-muted">Vừa xong</small>
+                            </div>
+                            <div class="comment mt-3 p-3 border rounded">
+                                <h6 class="mb-1">Trần Thị B</h6>
+                                <p class="mb-1">Thông tin rất hữu ích, mong được đọc thêm các bài viết tương tự.</p>
+                                <small class="text-muted">1 giờ trước</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <a href="#">LIÊN HỆ</a>
+            <span>|</span>
+            <a href="#">CHÍNH SÁCH BẢO MẬT</a>
+            <span>|</span>
+            <span>KẾT NỐI VỚI CHÚNG TÔI:</span>
+            <div class="social-icons d-inline-block">
+                <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-x-twitter fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
